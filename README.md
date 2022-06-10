@@ -21,9 +21,9 @@ $ npm i popularnames
 # Usage
 
 ```js
-const createName = require("popularnames");
+const createName = require("./index"); // The index.js file contains the function which puts out the name after having entered an integer.
 
-const name = createName("n"); // n is any number i.e. integer between 1 and 10 and 1 creates Prisha
+const name = createName(n); // n is any number i.e. integer between 1 and 10 and for example 1 creates Prisha.
 ```
 
 # LICENSE
