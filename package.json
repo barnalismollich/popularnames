@@ -1,6 +1,6 @@
 {
   "name": "popularnames",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "An npm library for creating popular Indian girl names by entering a number",
   "main": "index.js",
   "scripts": {
