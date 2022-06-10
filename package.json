@@ -1,6 +1,6 @@
 {
   "name": "popularnames",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An npm library for creating popular Indian girl names by entering a number",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://https://github.com/barnalismollich/npm_library"
+    "url": "git+https://https://github.com/barnalismollich/popularnames"
   },
   "keywords": [
     "popular first names",
@@ -19,9 +19,9 @@
   "author": "Barnali Smollich",
   "license": "MIT",
   "bugs": {
-    "url": "https://https://github.com/barnalismollich/npm_library/issues"
+    "url": "https://https://github.com/barnalismollich/popularnames/issues"
   },
-  "homepage": "https://github.com/barnalismollich/npm_library#readme",
+  "homepage": "https://github.com/barnalismollich/popularnames#readme",
   "devDependencies": {
     "jest": "^28.1.1"
   }
