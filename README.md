@@ -4,7 +4,7 @@ This is an npm library created during the training at Coyotiv UG to create girl 
 
 # Popular Indian girl names 2021
 
-This is a library for searching popular Indian girl names as of 2021. If you enter a number from one to ten (1-10) you will get the Top 10 names. Source: https://www.babycenter.in/a25042694/top-100-girl-names-in-india-in-2021
+This is a library for searching popular Indian girl names as of 2021. If you enter a number from one to ten (1-10) you will get the Top 10 names. So if you are unsure which name your girl should have, you can let faith decide. Source: https://www.babycenter.in/a25042694/top-100-girl-names-in-india-in-2021
 
 1 = Prisha
 2 = Aadhya
@@ -21,9 +21,9 @@ $ npm i popularnames
 # Usage
 
 ```js
-const createName = require("./index"); // The index.js file contains the function which puts out the name after having entered an integer.
-
-const name = createName(n); // n is any number i.e. integer between 1 and 10 and for example 1 creates Prisha.
+const popularnames = require("popularnames");
+const name = popularnames(number); // number is any number i.e. integer between 1 and 10 and for example 1 creates Prisha.
+console.log(name);
 ```
 
 # LICENSE
